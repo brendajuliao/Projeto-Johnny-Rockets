@@ -31,5 +31,9 @@ Aplicar na prática conceitos de:
 - Estruturação de aplicações web
 - Organização de páginas e navegação
 
+## Desenvolvido por
+- Brenda Julião
+- Isabella Tamasi 
+
 ## Status
 Projeto acadêmico concluído
