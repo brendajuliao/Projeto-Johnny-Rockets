@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+body{
+}
+section,footer{
+    padding: 20px 0;
+}
+h3{
+    font-size: 50px;
+}
+p{
+    color:coral;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+.btn{
+    background-color:#000;
+    color: aliceblue;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+}
+.btn:hover{
+    background-color:red;
+}
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul a{
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: #000;
+	margin: 0 25px;
+	text-transform: uppercase;
+	font-size: 16px;
+	display: block;
+	font-weight: bold;
+}
+nav ul a:not(.btn)::after{
+    content: "";
+    background-color:red;
+    height: 3px;
+    width: 0%;
+    display: block;
+    margin: 0 auto;
+    transition: 0.3s
+}
+nav ul a:hover::after{
+    width: 100%;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.banner .banner-text{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+}
+.banner .banner-text h1{
+	font-size: 75px;
+	color:red;
+}
+.banner .banner-text p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    margin: 18px 0 ;
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+}
+.footer i{
+    color: red;
+    font-size: 19px;
+    background-color: white;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+}
+.footer p{
+    margin-top: 10px;
+    color: white;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: red;
+    color: white;
+  }
+  .fa-instagram {
+    background: red;
+    color: white;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .corpo{ 
+    text-align:center;
+    padding: 0px 20px; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+	color: #000;
+	font-size: 16px;
+	
+
+}
